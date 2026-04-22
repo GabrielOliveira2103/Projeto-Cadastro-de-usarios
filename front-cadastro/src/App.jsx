@@ -37,7 +37,7 @@ function App() {
     event.preventDefault()
 
 
-    await axios.post('http://localhost:3003/usuarios', {
+    await axios.post('https://gabrie.gabrieloliveiradev.com/usuarios', {
       name: name,
       email,
       age: Number(age)

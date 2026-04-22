@@ -13,7 +13,7 @@ function App() {
 
   async function buscarUsuarios() {
 
-    const resposta = await axios.get('http://localhost:3003/usuarios')
+    const resposta = await axios.get('https://gabrie.gabrieloliveiradev.com//usuarios')
 
     setusers(resposta.data)
 

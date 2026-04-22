@@ -20,11 +20,12 @@ const Usuario = mongoose.model('Usuario', usuarioSchema);
 
 
 
-
 app.get("/usuarios", async (req, res) => {
     const usuariosdobanco = await Usuario.find()
     res.json(usuariosdobanco)
 })
+
+
 
 
 app.post("/usuarios", async (req, res) => {
@@ -36,7 +37,8 @@ app.post("/usuarios", async (req, res) => {
 
 })
 
+const PORT = process.env.PORT || 3003;
 
-app.listen(3003, () => {
-    console.log('Servidor rodando na porta 3003');
-})
+app.listen(PORT, () => {
+  console.log(`Servidor rodando na porta ${PORT}`);
+});

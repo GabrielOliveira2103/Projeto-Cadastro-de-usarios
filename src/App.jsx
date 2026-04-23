@@ -1,7 +1,7 @@
 
 import './App.css'
 import { useState, useEffect } from 'react'
-import UserCard from './components/userCard.jsx'
+import UserCard from './components/UserCard.jsx'
 import axios from 'axios'
 
 function App() {

@@ -13,7 +13,7 @@ function App() {
 
   async function buscarUsuarios() {
 
-    const resposta = await axios.get('https://gabrie.gabrieloliveiradev.com/usuarios')
+    const resposta = await axios.get('https://gabrieloliveiradev.com/usuarios')
 
     setusers(resposta.data)
 
@@ -37,7 +37,7 @@ function App() {
     event.preventDefault()
 
 
-    await axios.post('https://gabrie.gabrieloliveiradev.com/usuarios', {
+    await axios.post('https://gabrieloliveiradev.com/usuarios', {
       name: name,
       email,
       age: Number(age)

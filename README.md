@@ -2,7 +2,7 @@
   <h1>Cadastro de Usuários - Projeto Fullstack</h1>
 </div>
 <br>
-<img src=""/>
+<img src="https://github.com/GabrielOliveira2103/Projeto-Cadastro-de-usarios/blob/main/src/assets/img-projeto.png?raw=true"/>
 
 <p>Aplicação fullstack para cadastro e gerenciamento de usuários, desenvolvida com foco em integração entre front-end e back-end, consumo de API REST e persistência de dados.
 
